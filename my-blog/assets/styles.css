@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo h1 {
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(orange, gold);
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.form-container {
+    width: 50%;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode header, .dark-mode footer {
+    background-color: #1e1e1e;
+}
+
